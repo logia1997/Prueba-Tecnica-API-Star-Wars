@@ -1,0 +1,214 @@
+body{
+    background-color:#35393f;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: auto;
+    margin: 0 10%;
+    margin-bottom: 3%;
+    padding-bottom: 10px;
+}
+
+.container >*{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    height: auto;
+}
+
+.containerTable{
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.tablaDatos{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 500px;
+}
+
+th,td {
+  padding: 5px 10px;
+}
+
+.tablaDatos tbody tr {
+  transition: all 0.3s ease;
+}
+
+
+.tablaDatos tbody tr{
+    background-color: #ced5dd;
+}
+  
+
+.tablaDatos tbody tr:nth-of-type(even) {
+  background-color: #5f666d;
+}
+
+
+
+.tablaDatos tbody tr:hover {
+  background-color: #ecdf91;
+  transform: translateX(5px);
+  cursor: pointer;
+}
+
+.tablaDatos th {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tablaDatos td {
+  color:black;
+  font-size: 20px;
+}
+
+#Nombre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    color: #3d4ee7;
+    text-align: center;
+    width: 100%;
+    background-color:#272b30;
+    text-shadow: 1px 1px 4px rgb(255, 238, 0);
+}
+
+.nombre-info{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 55px;
+  color: #1c7751;
+  text-align: center;
+  width: 100%;
+  background-color:#272b30;
+  text-shadow: 1px 1px 4px rgb(255, 238, 0);
+}
+
+.tituloTable{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: rgb(225, 230, 238);
+}
+
+.containerTable thead td{
+  background-color: rgb(102 104 107);
+  font-size: 25px;
+}
+
+
+
+
+
+h1, h2{
+    text-align: center; 
+}
+
+.container-granTitulo, .container-Titulo{
+    background-color:#272b30;
+    height: 23dvh;
+    text-align: center;
+    margin: 1.5% 0.2%;
+
+  border: solid black 2px;
+  border-radius: 10px;
+  
+}
+
+.container-Titulo{
+  height: 16dvh;
+}
+ 
+.granTitulo{
+   margin: 0;
+   margin-bottom: 10px;
+   color: #FFE300;
+   text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+   font-size: 4em;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: 500;
+   line-height: 1.1;
+   padding: 0;
+   padding-top: 1%;
+   
+}
+
+.texto{
+    margin: 0;
+    color: #c5b748;
+    font-size: 1.1em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 1.1;
+    padding: 0;
+    padding-top: 1%;
+}
+
+
+.container-button{
+    width: auto;
+    margin: 2% 10%;
+}
+
+.button-next{
+    background-color:#70787d;
+    width: 25%;
+    margin-left: 15%;
+    font-size: 22px;
+    font-style:unset;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.button-next:hover{
+    cursor: pointer;
+    background-color:#9aa0a3;
+}
+
+
+.contenedorEnlaces{
+  width: auto;
+  margin: 2% 10% 1% 10%;
+}
+
+.button-enlace, .enlace-retorno{
+  width: 30%;
+  margin-left: 12%;
+  font-size: 26px;
+  font-style:unset;
+
+  color: white;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.button-enlace:hover{
+  cursor: pointer;
+  color: yellow;
+}
+
+.contenedorEnlaceRetorno{
+  width: auto;
+  margin: 1% 5% 1% 0;
+
+}
+
+.enlace-retorno{
+  font-style:unset;
+  background-color: #2b3138;
+  padding: 5px 10px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 40%;
+}
+
+.enlace-retorno:hover{
+  color: #FFE300;
+  font-size: 22px;
+}
